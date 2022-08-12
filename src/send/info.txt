@@ -1,0 +1,11 @@
+Organizacion por carpetas
+
+Router:
+Contiene 
+-Archivo package.json con toda la info de dependecias instaladas etc que haran posible levantar el Ts en el navegador
+usa para este fin Parcel (buscar).
+-Archivo gitignore
+-Carpeta src (Sources):
+En esta carpeta iran todas las fuentes, los index.html. index.ts e index.css
+A la ves esta carpeta contendra a las carpetas de los componentes que se montaran en la pagina:
+inbox y send. Estos archivos exportaran funciones que devolveran un elemento, ese elemento se va a montar en el content
